@@ -1,4 +1,4 @@
-"""Simple calculator — stubs."""
+"""Simple calculator."""
 
 
 def add(a: float, b: float) -> float:
