@@ -2,16 +2,18 @@
 
 
 def add(a: float, b: float) -> float:
-    raise NotImplementedError
+    return a + b
 
 
 def subtract(a: float, b: float) -> float:
-    raise NotImplementedError
+    return a - b
 
 
 def multiply(a: float, b: float) -> float:
-    raise NotImplementedError
+    return a * b
 
 
 def divide(a: float, b: float) -> float:
-    raise NotImplementedError
+    if b == 0:
+        raise ValueError("division by zero")
+    return a / b
