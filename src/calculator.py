@@ -1,19 +1,17 @@
-"""Simple calculator — functions are stubs, waiting for implementation."""
+"""Simple calculator — stubs."""
 
 
 def add(a: float, b: float) -> float:
-    return a + b
+    raise NotImplementedError
 
 
 def subtract(a: float, b: float) -> float:
-    return a - b
+    raise NotImplementedError
 
 
 def multiply(a: float, b: float) -> float:
-    return a * b
+    raise NotImplementedError
 
 
 def divide(a: float, b: float) -> float:
-    if b == 0:
-        raise ValueError("division by zero")
-    return a / b
+    raise NotImplementedError
