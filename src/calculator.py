@@ -1,4 +1,4 @@
-"""Simple calculator — functions are stubs, waiting for implementation."""
+"""Simple calculator."""
 
 
 def add(a: float, b: float) -> float:
